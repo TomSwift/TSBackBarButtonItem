@@ -1,0 +1,328 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		019F1E9316FC179700F169CE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 019F1E9216FC179700F169CE /* UIKit.framework */; };
+		019F1E9516FC179700F169CE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 019F1E9416FC179700F169CE /* Foundation.framework */; };
+		019F1E9716FC179700F169CE /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 019F1E9616FC179700F169CE /* CoreGraphics.framework */; };
+		019F1E9D16FC179700F169CE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 019F1E9B16FC179700F169CE /* InfoPlist.strings */; };
+		019F1E9F16FC179700F169CE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 019F1E9E16FC179700F169CE /* main.m */; };
+		019F1EA316FC179700F169CE /* TSAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 019F1EA216FC179700F169CE /* TSAppDelegate.m */; };
+		019F1EA516FC179700F169CE /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 019F1EA416FC179700F169CE /* Default.png */; };
+		019F1EA716FC179700F169CE /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 019F1EA616FC179700F169CE /* Default@2x.png */; };
+		019F1EA916FC179700F169CE /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 019F1EA816FC179700F169CE /* Default-568h@2x.png */; };
+		019F1EAC16FC179700F169CE /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 019F1EAA16FC179700F169CE /* MainStoryboard.storyboard */; };
+		019F1EAF16FC179700F169CE /* TSViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 019F1EAE16FC179700F169CE /* TSViewController.m */; };
+		019F1EBA16FC17AB00F169CE /* TSBackBarButtonItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 019F1EB716FC17AB00F169CE /* TSBackBarButtonItem.m */; };
+		019F1EBB16FC17AB00F169CE /* UINavigationBarDefaultBack@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 019F1EB816FC17AB00F169CE /* UINavigationBarDefaultBack@2x.png */; };
+		019F1EBC16FC17AB00F169CE /* UINavigationBarDefaultBackPressed@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 019F1EB916FC17AB00F169CE /* UINavigationBarDefaultBackPressed@2x.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		019F1E8F16FC179700F169CE /* TSBackBarButtonItemSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TSBackBarButtonItemSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		019F1E9216FC179700F169CE /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		019F1E9416FC179700F169CE /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		019F1E9616FC179700F169CE /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		019F1E9A16FC179700F169CE /* TSBackBarButtonItemSample-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TSBackBarButtonItemSample-Info.plist"; sourceTree = "<group>"; };
+		019F1E9C16FC179700F169CE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		019F1E9E16FC179700F169CE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		019F1EA016FC179700F169CE /* TSBackBarButtonItemSample-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TSBackBarButtonItemSample-Prefix.pch"; sourceTree = "<group>"; };
+		019F1EA116FC179700F169CE /* TSAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TSAppDelegate.h; sourceTree = "<group>"; };
+		019F1EA216FC179700F169CE /* TSAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TSAppDelegate.m; sourceTree = "<group>"; };
+		019F1EA416FC179700F169CE /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		019F1EA616FC179700F169CE /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		019F1EA816FC179700F169CE /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		019F1EAB16FC179700F169CE /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		019F1EAD16FC179700F169CE /* TSViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TSViewController.h; sourceTree = "<group>"; };
+		019F1EAE16FC179700F169CE /* TSViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TSViewController.m; sourceTree = "<group>"; };
+		019F1EB616FC17AB00F169CE /* TSBackBarButtonItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TSBackBarButtonItem.h; sourceTree = "<group>"; };
+		019F1EB716FC17AB00F169CE /* TSBackBarButtonItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TSBackBarButtonItem.m; sourceTree = "<group>"; };
+		019F1EB816FC17AB00F169CE /* UINavigationBarDefaultBack@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "UINavigationBarDefaultBack@2x.png"; sourceTree = "<group>"; };
+		019F1EB916FC17AB00F169CE /* UINavigationBarDefaultBackPressed@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "UINavigationBarDefaultBackPressed@2x.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		019F1E8C16FC179700F169CE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				019F1E9316FC179700F169CE /* UIKit.framework in Frameworks */,
+				019F1E9516FC179700F169CE /* Foundation.framework in Frameworks */,
+				019F1E9716FC179700F169CE /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		019F1E8616FC179700F169CE = {
+			isa = PBXGroup;
+			children = (
+				019F1EB516FC17AB00F169CE /* TSBackBarButtonItem */,
+				019F1E9816FC179700F169CE /* TSBackBarButtonItemSample */,
+				019F1E9116FC179700F169CE /* Frameworks */,
+				019F1E9016FC179700F169CE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		019F1E9016FC179700F169CE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				019F1E8F16FC179700F169CE /* TSBackBarButtonItemSample.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		019F1E9116FC179700F169CE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				019F1E9216FC179700F169CE /* UIKit.framework */,
+				019F1E9416FC179700F169CE /* Foundation.framework */,
+				019F1E9616FC179700F169CE /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		019F1E9816FC179700F169CE /* TSBackBarButtonItemSample */ = {
+			isa = PBXGroup;
+			children = (
+				019F1EA116FC179700F169CE /* TSAppDelegate.h */,
+				019F1EA216FC179700F169CE /* TSAppDelegate.m */,
+				019F1EAA16FC179700F169CE /* MainStoryboard.storyboard */,
+				019F1EAD16FC179700F169CE /* TSViewController.h */,
+				019F1EAE16FC179700F169CE /* TSViewController.m */,
+				019F1E9916FC179700F169CE /* Supporting Files */,
+			);
+			path = TSBackBarButtonItemSample;
+			sourceTree = "<group>";
+		};
+		019F1E9916FC179700F169CE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				019F1E9A16FC179700F169CE /* TSBackBarButtonItemSample-Info.plist */,
+				019F1E9B16FC179700F169CE /* InfoPlist.strings */,
+				019F1E9E16FC179700F169CE /* main.m */,
+				019F1EA016FC179700F169CE /* TSBackBarButtonItemSample-Prefix.pch */,
+				019F1EA416FC179700F169CE /* Default.png */,
+				019F1EA616FC179700F169CE /* Default@2x.png */,
+				019F1EA816FC179700F169CE /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		019F1EB516FC17AB00F169CE /* TSBackBarButtonItem */ = {
+			isa = PBXGroup;
+			children = (
+				019F1EB616FC17AB00F169CE /* TSBackBarButtonItem.h */,
+				019F1EB716FC17AB00F169CE /* TSBackBarButtonItem.m */,
+				019F1EB816FC17AB00F169CE /* UINavigationBarDefaultBack@2x.png */,
+				019F1EB916FC17AB00F169CE /* UINavigationBarDefaultBackPressed@2x.png */,
+			);
+			path = TSBackBarButtonItem;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		019F1E8E16FC179700F169CE /* TSBackBarButtonItemSample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 019F1EB216FC179700F169CE /* Build configuration list for PBXNativeTarget "TSBackBarButtonItemSample" */;
+			buildPhases = (
+				019F1E8B16FC179700F169CE /* Sources */,
+				019F1E8C16FC179700F169CE /* Frameworks */,
+				019F1E8D16FC179700F169CE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TSBackBarButtonItemSample;
+			productName = TSBackBarButtonItemSample;
+			productReference = 019F1E8F16FC179700F169CE /* TSBackBarButtonItemSample.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		019F1E8716FC179700F169CE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = TS;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "CoDeveloper LLC";
+			};
+			buildConfigurationList = 019F1E8A16FC179700F169CE /* Build configuration list for PBXProject "TSBackBarButtonItemSample" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 019F1E8616FC179700F169CE;
+			productRefGroup = 019F1E9016FC179700F169CE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				019F1E8E16FC179700F169CE /* TSBackBarButtonItemSample */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		019F1E8D16FC179700F169CE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				019F1E9D16FC179700F169CE /* InfoPlist.strings in Resources */,
+				019F1EA516FC179700F169CE /* Default.png in Resources */,
+				019F1EA716FC179700F169CE /* Default@2x.png in Resources */,
+				019F1EA916FC179700F169CE /* Default-568h@2x.png in Resources */,
+				019F1EAC16FC179700F169CE /* MainStoryboard.storyboard in Resources */,
+				019F1EBB16FC17AB00F169CE /* UINavigationBarDefaultBack@2x.png in Resources */,
+				019F1EBC16FC17AB00F169CE /* UINavigationBarDefaultBackPressed@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		019F1E8B16FC179700F169CE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				019F1E9F16FC179700F169CE /* main.m in Sources */,
+				019F1EA316FC179700F169CE /* TSAppDelegate.m in Sources */,
+				019F1EAF16FC179700F169CE /* TSViewController.m in Sources */,
+				019F1EBA16FC17AB00F169CE /* TSBackBarButtonItem.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		019F1E9B16FC179700F169CE /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				019F1E9C16FC179700F169CE /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		019F1EAA16FC179700F169CE /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				019F1EAB16FC179700F169CE /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		019F1EB016FC179700F169CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		019F1EB116FC179700F169CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		019F1EB316FC179700F169CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TSBackBarButtonItemSample/TSBackBarButtonItemSample-Prefix.pch";
+				INFOPLIST_FILE = "TSBackBarButtonItemSample/TSBackBarButtonItemSample-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		019F1EB416FC179700F169CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TSBackBarButtonItemSample/TSBackBarButtonItemSample-Prefix.pch";
+				INFOPLIST_FILE = "TSBackBarButtonItemSample/TSBackBarButtonItemSample-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		019F1E8A16FC179700F169CE /* Build configuration list for PBXProject "TSBackBarButtonItemSample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				019F1EB016FC179700F169CE /* Debug */,
+				019F1EB116FC179700F169CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		019F1EB216FC179700F169CE /* Build configuration list for PBXNativeTarget "TSBackBarButtonItemSample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				019F1EB316FC179700F169CE /* Debug */,
+				019F1EB416FC179700F169CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 019F1E8716FC179700F169CE /* Project object */;
+}
